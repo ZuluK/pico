@@ -1,0 +1,165 @@
+/* sets all margins and text to strict left of the page */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* changes all <p> font-size */
+body {
+  background-color: #2A2A2A;
+  font-size: 14px;
+}
+
+/* Navigation bar */
+
+/* displays grey-ish border around links */
+.navigation {
+  background-color: #262626;
+  height: 80px;
+}
+/* displays PICO logo in top left corner */
+.navigation .logo {
+  color: #fff;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 15px;
+  padding: 15px 15px 15px 35px;
+}
+/* listed items are floated to right */
+.navigation ul {
+  float: right;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 35px 15px 15px;
+  margin-top: 20px;
+}
+/* listed items are now inline with each other */
+.navigation li {
+  display: inline-block;
+}
+/* active link color is pink */
+
+.navigation li.active a {
+  color: #ff6760;
+}
+/* adds uppercase to navigation links and margin betweeen text links */
+.navigation a {
+  color: #d8d8d8;
+  margin-right: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* HEADER */
+
+/* header is centered about navigation */
+.header {
+  color: #d8d8d8;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+/* h1 header thicker font and larger size */
+.header h1 {
+  font-size: 48px;
+  font-weight: 300;
+  margin-top: 65px;
+}
+/* h1 header span element in bold*/
+.header h1 > span {
+  font-weight: bold;
+}
+/* h2 header */
+.header h2 {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 25px 0;
+  /* h2 header span element color red */
+}
+.header h2 > span {
+  color: #EB615B;
+}
+/* download button with border properties */
+.header a {
+  background-color: #ff6760;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  display: inline-block;
+  margin: 10px 0 75px 0;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* FEATURES */
+
+/* add background color of grey to features class */
+.features {
+  background-color: #f6f6f6;
+  color: #616161;
+  height: 450px;
+}
+/* item elements are floated to the left and inline */
+.item {
+  float:left;
+  margin: 25px 0;
+  padding: 5px 0 20px 0;
+  text-align: center;
+  width: 33.3333333333%
+}
+/* heading size change for h3 element */
+.item h3 {
+  font-size: 20px;
+  padding: 5px 0;
+}
+/* paragraph size, font changes */
+.item p {
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+/* FOOTER */
+
+/* footer alignment to center of page */
+.footer {
+  color: #d8d8d8;
+  text-align: center;
+}
+/* h4 element size change and margin */
+.footer h4 {
+  font-size: 24px;
+  margin: 50px 0 25px 0;
+}
+/* footer paragraph color: grey and padding around text */
+.footer p {
+  color: #858585;
+  font-size: 16px;
+  padding: 3px 0;
+}
+/* footer links change color to dark red */
+.footer p a {
+  color:  #793f3d;
+}
+/* social icon spacing betweeen each */
+#socialIcons {
+  margin: 15px 0 50px 0;
+}
+
+#socialIcons a {
+	color: #FFFFFF;
+}
+/* border radius around socialIcons twitter */
+#socialIcons .fa-twitter {
+	background-color: #5DAED5;
+	border-radius: 50%;
+	padding: 5px;
+}
+/* border radious around socialIcons facebook */
+#socialIcons .fa-facebook {
+	background-color: #4470CF;
+	border-radius: 50%;
+	padding: 5px 8px;
+}
